@@ -8,8 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/submit', (req, res) =>{
-  //console.log(req.body.id);
-  res.render('result.ejs', {id: req.body.id})
+  res.render('result.ejs')
 });
 
 // Listen to the App Engine-specified port, or 3000 otherwise
