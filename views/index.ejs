@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>脱出ゲーム</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="簡単な脱出ゲームです。">
-    <meta name="keywords" content="脱出ゲーム 脱出">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    <h1>Hello!</h1>
-</body>
-</html>
+<%- include('partials/config'); %>
+<%- include('partials/header'); %>
+<div class="content-container">
+    <div class="omikuji-screen">
+        <img id="omikujibox" src="picture/omikujibox1.png">
+    </div>
+    <div id="mix_btn">混ぜる</div>
+    <div>
+        <span id="post_btn">占う</span>
+    </div>
+</div>
+<script type="text/javascript" src="/js/index.js"></script>
+<%- include('partials/footer'); %>
