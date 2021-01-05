@@ -18,11 +18,12 @@ header{
 }
 /*フッター==========*/
 /*メイン============*/
+/*index*/
 .omikuji-screen{
     width: 65%;
     height: 400px;
     margin: 0 auto;
-    background-image: url("/picture/omikujiback.png");
+    background-image: url("/picture/omikujiback1.png");
     background-size: cover;
     margin-bottom: 30px;
 }
@@ -44,3 +45,13 @@ header{
     75%{ transform:rotate(-30deg);}
     100%{ transform:rotate(0deg); }
   }
+
+/*result*/
+#omikuji_result{
+    margin: 0 auto;
+    width: 60%;
+}
+
+#result_img{
+    width: 100%;
+}
