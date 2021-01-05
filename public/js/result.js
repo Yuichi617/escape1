@@ -7,4 +7,4 @@ var imgList = [
 ];
 
 var omikuji_result = document.getElementById("omikuji_result");
-omikuji_result.innerHTML = "<img id='result_img' src='" + imgList[id] + "'>";
+omikuji_result.innerHTML = "<img id='result_img' src='" + imgList[id-1] + "'>";

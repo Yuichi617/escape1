@@ -25,12 +25,34 @@ header{
     margin: 0 auto;
     background-image: url("/picture/omikujiback1.png");
     background-size: cover;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #omikujibox{
     width: 29%;
     margin-top: 180px;
+}
+
+.mix_box{
+    margin-bottom: 15px;
+}
+
+#mix_btn{
+    font-size: 15px;
+    cursor: pointer;
+    padding:5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#post_btn{
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #696969;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
 }
 
 .mix {
